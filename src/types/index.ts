@@ -7,3 +7,9 @@ export type AllRates = {
   code: string;
   rate: number;
 };
+
+export type ConverstionInputType = {
+  from: string;
+  to: string;
+  amount: string;
+};
